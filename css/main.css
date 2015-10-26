@@ -5,58 +5,92 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
- }
+html{
+	background: url("../img/monkey_crystal.png") -420px 0 no-repeat;
+	background-size: cover;
+	font-family:"Helvetica";
+	
+}
 
 h1, h2, h3, h4, h5, h6{
-	font-family: "Georgia", serif;
+	margin: 30px 0 10px 10px;
+	font-family: fantasy;
+	color: #2ECCFA;
+	font-size: xx-large;
+
+}
+
+body {
+    font-size: 90%;
+	line-height: 1.6;
+}
+
+
+div#content-wrapper {
+    width: 80%;
+    max-width: 640px;
+	margin: -40px auto 0 -8px;
+    box-shadow: 3px 3px 3px black;
+	background-color:white;
 }
 
 p, li{
 	font-family:"Helvetica", sans-serif;
 }
 
-p.subtitle{
-	font-size: 20px;
-	margin: 0 0 0 0;
+ol, ul {
+	list-style: none;
 }
 
-video#header-video{
-	margin: 0 -50px 0 -50px;
+p{
+	width: 600px;
+	margin: 0 0 10px 10px;
 }
 
 img#header-image{
-	width: 600px;
+	width: 1015px;
 	height: 230px;
+	margin: -8px 0 0 -7px;
+}
+
+video#content-video{
+	margin: -8px 0 0 -8px;
 }
 
 ul.main-nav{
-	padding: 20px 0 50px 0;
+	padding: 0 0 0 35px;
+	margin: 2px 0 15px 0;
 
 }
 
 ul.main-nav li{
-	display: inline;
-	float: left;
-	border-style: solid;
+	display: inline-block;
 	text-align: center;
+	font-size: 32px;
+	font-family:fantasy;
+	padding: 10px 40px 0 40px;
+	border-style:solid;
+	background-color:aliceblue;
 }
 
 ul.main-nav a{
 	display: block;
     width: 100px;
 	text-decoration: none;
-	color: green;
-	background-color: lightblue;
+	color: black;
 }
 
 ul.main-nav a:hover {
 	font-weight: bold;
+	
+}
+
+ul.main-nav li:hover{
+	background-color:lightgoldenrodyellow;
 }
 
 ul.main-nav a:visited { 
-	color:green; 
+	color: black; 
 }
 
 ul.main-nav a:visited:hover {
@@ -67,9 +101,115 @@ ul.main-nav a:visited:hover {
 	font-weight: bold;
 }
 
-aside#social{
-	position: fixed;
-	margin: 0 0 0 900px;
+#watch h2{
+	margin:34px 0 0 9px;
+}
+
+video#watch-video{
+	margin: 0 0 0 -8px;
+}
+
+#watch p img{
+	margin: 0 0 -5px -0;
+
+}
+
+#listen p img{
+	margin: 0 0 -5px -0;
+
+}
+
+a.download-button{
+	border-style:solid;
+	border-color: black;
+	color:white;
+	background-color:black;
+	padding: 0 0 0 -10px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 25px;
+}
+
+div#social-block {  
+  margin: 15px auto; 
+  position: relative; 
+}
+
+aside#social { 
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 230px;
+}
+
+aside#social h2{
+	border-style:solid;
+	border-color:black;
+	font-family: "Helvetica";
+	color:black;
+	font-size:25px;
+	text-align:center;
+	margin: 0 0 0 0;
+	background: aliceblue;
+}
+
+ul.social-links{
+	border-style:solid;
+	margin: -3px 0 0 0;
+	padding: 0 0 0 16px;
+	background: aliceblue;
+
+}
+
+ul.social-links li{
+	margin: 0 0 -6px 0;
+}
+
+
+div#outer-layer{
+	width: 590px;
+	padding: 20px;
+}
+
+div#inner-layer{
+padding: 20px;
+background: black;
+width: 540px;
+}
+
+div#text-layer{
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+
+
+color: transparent;
+}
+
+.lead{
+background: -webkit-gradient(linear, left top, right top, color-stop(70%,#2ECCFA), color-stop(100%,black)); /* Chrome,Safari4+ */
+}
+
+div.weybec-people{
 	display: inline-block;
+	text-align: center;
+	margin: 0 60px 0 0; 
+
+}
+img.headshot{
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
 }
 
+footer {
+    max-width: 640px;
+    font-size: 90%;
+    width: 80%;   
+}
+
+.footer-list li {
+    display: inline;
+}
