@@ -8,3 +8,67 @@
  html {
      color: green;
  }
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Georgia", serif;
+}
+
+p, li{
+	font-family:"Helvetica", sans-serif;
+}
+
+p.subtitle{
+	font-size: 20px;
+	margin: 0 0 0 0;
+}
+
+video#header-video{
+	margin: 0 -50px 0 -50px;
+}
+
+img#header-image{
+	width: 600px;
+	height: 230px;
+}
+
+ul.main-nav{
+	padding: 20px 0 50px 0;
+
+}
+
+ul.main-nav li{
+	display: inline;
+	float: left;
+	border-style: solid;
+	text-align: center;
+}
+
+ul.main-nav a{
+	display: block;
+    width: 100px;
+	text-decoration: none;
+	color: green;
+	background-color: lightblue;
+}
+
+ul.main-nav a:hover {
+	font-weight: bold;
+}
+
+ul.main-nav a:visited { 
+	color:green; 
+}
+
+ul.main-nav a:visited:hover {
+	font-weight: bold;
+}
+
+ul.main-nav a:visited:hover {
+	font-weight: bold;
+}
+
+aside#social{
+	position: fixed;
+	margin: 0 0 0 900px;
+	display: inline-block;
+}
